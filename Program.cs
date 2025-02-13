@@ -19,7 +19,7 @@ namespace CheckMates_Vers_0._0
             
 
             //Comment Out After Running Initial Test As a Just Incase 
-            DatabaseHelper.InitializeDatabase();
+            //db.InitializeDatabase();
             
             Application.Run(new Form1());
         }

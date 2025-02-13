@@ -66,12 +66,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DB.cs" />
-    <Compile Include="delete.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="delete.Designer.cs">
-      <DependentUpon>delete.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main Page.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,9 +80,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="delete.resx">
-      <DependentUpon>delete.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main Page.resx">
       <DependentUpon>Main Page.cs</DependentUpon>
     </EmbeddedResource>
