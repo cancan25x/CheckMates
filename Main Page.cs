@@ -98,17 +98,16 @@ namespace CheckMates_Vers_0._0
             }
             
         }
-
+        //Deletes only from table not from db
         private void grid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            /*
-            DataGridView dgv = (DataGridView)sender;
+          /*DataGridView dgv = (DataGridView)sender;
             e.RowIndex row = new e.RowIndex();
             connectionString.Open();
             string listName = cmbMain.SelectedItem.ToString();
             SQLiteCommand cmd = new SQLiteCommand($@"DELETE FROM {listName} WHERE ");
             grid1.Rows.RemoveAt(row);
-            */
+           */ 
         }
 
         private void fill_grid()
@@ -125,23 +124,32 @@ namespace CheckMates_Vers_0._0
             //data to adapter the data in the grid
             DataTable dt = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);
-            adapter.Fill(dt);
-            grid1.DataSource = dt;
-
-            //if not using "using" you have to close the connection
-            connectionString.Close();            
 
             DataGridViewButtonColumn deleteButtonColumn = new DataGridViewButtonColumn();
             deleteButtonColumn.HeaderText = "Delete";
             deleteButtonColumn.Name = "Delete";
             deleteButtonColumn.Text = "Delete";
             deleteButtonColumn.UseColumnTextForButtonValue = true;
-            int columnIndexs = 3;
+            int columnIndexs = 0;
             if (grid1.Columns["Delete"] == null)
             {
                 grid1.Columns.Insert(columnIndexs, deleteButtonColumn);
             }
+            DataGridViewButtonColumn editButtonColumn = new DataGridViewButtonColumn();
+            editButtonColumn.HeaderText = "Edit";
+            editButtonColumn.Name = "Edit";
+            editButtonColumn.Text = "Edit";
+            editButtonColumn.UseColumnTextForButtonValue = true;
+            int columnIndexss = 1;
+            if (grid1.Columns["Edit"] == null)
+            {
+                grid1.Columns.Insert(columnIndexss, editButtonColumn);
+            }
 
+            adapter.Fill(dt);
+            grid1.DataSource = dt;
+            connectionString.Close();            
+         
             DataGridViewCheckBoxColumn checkColumn = new DataGridViewCheckBoxColumn();
             checkColumn.Name = "X";
             checkColumn.HeaderText = "X";

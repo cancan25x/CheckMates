@@ -32,3 +32,23 @@ public static class db
             }
             base.OnClick(e);
 */
+
+/*  connectionString.Open();
+    SQLiteCommand cmd = new SQLiteCommand(QUERY YOU NEED, connectionString);
+    cmd.ExecuteNonQuery **** GOES THROUGH WITH THE QUERY
+   
+    THIS ALLOWS THE CODE TO BE PUSHED TO TABLES 
+    DataTable dt = new DataTable();
+    SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);
+    adapter.Fill(dt);
+    grid1.DataSource = dt;
+    
+    THIS IS FOR ADDING TO A COMBOBOX
+    foreach (DataRow dr in dt.Rows)
+            {
+                cmbMain.Items.Add(dr["Name"].ToString());
+            }
+
+    DONT FORGET TO CLOSE CONNECTION
+    connectionString.Close();
+*/

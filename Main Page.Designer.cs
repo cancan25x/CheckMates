@@ -66,9 +66,11 @@
             // 
             // grid1
             // 
+            this.grid1.AllowUserToOrderColumns = true;
             this.grid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grid1.Location = new System.Drawing.Point(0, 189);
+            this.grid1.Location = new System.Drawing.Point(0, 190);
             this.grid1.Name = "grid1";
+            this.grid1.ShowEditingIcon = false;
             this.grid1.Size = new System.Drawing.Size(1075, 506);
             this.grid1.TabIndex = 4;
             this.grid1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grid1_CellContentClick);
