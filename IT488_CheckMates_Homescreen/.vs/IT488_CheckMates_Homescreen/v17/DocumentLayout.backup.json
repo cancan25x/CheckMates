@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CDAEA38-6D99-4B5D-873C-5173871A4C05}|IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen.csproj|C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\it488_checkmates_homescreen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CDAEA38-6D99-4B5D-873C-5173871A4C05}|IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen.csproj|solutionrelative:it488_checkmates_homescreen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CDAEA38-6D99-4B5D-873C-5173871A4C05}|IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen.csproj|C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\it488_checkmates_homescreen\\listcreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9CDAEA38-6D99-4B5D-873C-5173871A4C05}|IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen.csproj|solutionrelative:it488_checkmates_homescreen\\listcreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CDAEA38-6D99-4B5D-873C-5173871A4C05}|IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen.csproj|c:\\users\\canyonreynolds\\documents\\github\\checkmates\\it488_checkmates_homescreen\\it488_checkmates_homescreen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9CDAEA38-6D99-4B5D-873C-5173871A4C05}|IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen.csproj|solutionrelative:it488_checkmates_homescreen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CDAEA38-6D99-4B5D-873C-5173871A4C05}|IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen.csproj|C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\it488_checkmates_homescreen\\listcreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CDAEA38-6D99-4B5D-873C-5173871A4C05}|IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen.csproj|solutionrelative:it488_checkmates_homescreen\\listcreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CDAEA38-6D99-4B5D-873C-5173871A4C05}|IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen.csproj|c:\\users\\canyonreynolds\\documents\\github\\checkmates\\it488_checkmates_homescreen\\it488_checkmates_homescreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CDAEA38-6D99-4B5D-873C-5173871A4C05}|IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen.csproj|solutionrelative:it488_checkmates_homescreen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen\\Program.cs",
+              "RelativeDocumentMoniker": "IT488_CheckMates_Homescreen\\Program.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen\\Program.cs",
+              "RelativeToolTip": "IT488_CheckMates_Homescreen\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:39:17.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListCreationForm.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen\\ListCreationForm.cs",
+              "RelativeDocumentMoniker": "IT488_CheckMates_Homescreen\\ListCreationForm.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen\\ListCreationForm.cs",
+              "RelativeToolTip": "IT488_CheckMates_Homescreen\\ListCreationForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:32:04.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen\\Form1.cs",
+              "RelativeDocumentMoniker": "IT488_CheckMates_Homescreen\\Form1.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen\\Form1.cs",
+              "RelativeToolTip": "IT488_CheckMates_Homescreen\\Form1.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowB0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:23:03.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListCreationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen\\ListCreationForm.cs",
+              "RelativeDocumentMoniker": "IT488_CheckMates_Homescreen\\ListCreationForm.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen\\ListCreationForm.cs [Design]",
+              "RelativeToolTip": "IT488_CheckMates_Homescreen\\ListCreationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:07:36.27Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen\\Form1.cs",
+              "RelativeDocumentMoniker": "IT488_CheckMates_Homescreen\\Form1.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_Homescreen\\IT488_CheckMates_Homescreen\\Form1.cs [Design]",
+              "RelativeToolTip": "IT488_CheckMates_Homescreen\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:07:32.58Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
