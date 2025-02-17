@@ -1,0 +1,11 @@
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\bin\Debug\IT488_CheckMates_Homescreen.exe.config
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\bin\Debug\IT488_CheckMates_Homescreen.exe
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\bin\Debug\IT488_CheckMates_Homescreen.pdb
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\obj\Debug\IT488_CheckMates_Homescreen.csproj.AssemblyReference.cache
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\obj\Debug\IT488_CheckMates_Homescreen.Form1.resources
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\obj\Debug\IT488_CheckMates_Homescreen.Properties.Resources.resources
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\obj\Debug\IT488_CheckMates_Homescreen.csproj.GenerateResource.cache
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\obj\Debug\IT488_CheckMates_Homescreen.csproj.CoreCompileInputs.cache
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\obj\Debug\IT488_CheckMates_Homescreen.exe
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\obj\Debug\IT488_CheckMates_Homescreen.pdb
+C:\Users\elnat\source\repos\IT488_CheckMates_Homescreen\IT488_CheckMates_Homescreen\obj\Debug\IT488_CheckMates_Homescreen.ListCreationForm.resources
