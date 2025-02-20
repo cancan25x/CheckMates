@@ -35,7 +35,7 @@ namespace IT488_CheckMates_Checklist
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message,"ERROR");
             }
         }
 

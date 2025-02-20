@@ -15,7 +15,7 @@ namespace IT488_CheckMates_Checklist
 
         SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
         public HomePage()
-        {            
+        {
             InitializeComponent();
 
             removeButton.Click += new EventHandler(RemoveButton_Click);
@@ -23,17 +23,17 @@ namespace IT488_CheckMates_Checklist
             ClearButton.Click += new EventHandler(ClearButton_Click);
 
             itemTextBox.KeyDown += new KeyEventHandler(ItemTextBox_KeyDown);
-            
+
             this.ResizeBegin += new EventHandler(Form1_Resize);
 
             checkedListBox1.ItemCheck += checkedListBox1_ItemCheck;
 
             instance = this;
-            
+
             fillCheckList();
 
             listName = listBox;
-            
+
         }
 
         private void RemoveButton_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace IT488_CheckMates_Checklist
                 }
                 else if (dialogResult == DialogResult.No)
                 {
-                   
+
                 }
             }
         }
@@ -72,7 +72,7 @@ namespace IT488_CheckMates_Checklist
             {
                 taskPage.Show();
             }
-            
+
         }
         private void Form1_Resize(object sender, EventArgs e)
         {
@@ -116,8 +116,8 @@ namespace IT488_CheckMates_Checklist
                 MessageBox.Show("Please enter a list to add.");
             }
         }
-        
 
+        //Ensures there is only on check box at a time 
         private void checkedListBox1_ItemCheck(object sender, ItemCheckEventArgs e)
         {
             for (int ix = 0; ix < checkedListBox1.Items.Count; ++ix)
@@ -126,17 +126,7 @@ namespace IT488_CheckMates_Checklist
         }
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            /*
-            int idx = checkedListBox1.SelectedIndex;
-            for (int i = 0; i < checkedListBox1.Items.Count; i++)
-            {
-                if (i != idx)
-                {
-                    checkedListBox1.SetItemChecked(i, false);
-                    listBox.Text = checkedListBox1.SelectedItem.ToString();
-                }
-            }
-            */
+           
         }
 
         public void fillCheckList()
@@ -159,16 +149,22 @@ namespace IT488_CheckMates_Checklist
         private void editButton_Click(object sender, EventArgs e)
         {
             EditList editList = new EditList();
-            if ((Application.OpenForms["EditList"] as EditList) != null)
+            if (checkedListBox1.SelectedItem == null)
             {
-                ;
+                MessageBox.Show("Please select a list");
             }
-            else
-            {
-                editList.Show();
+            else 
+            { 
+                if ((Application.OpenForms["EditList"] as EditList) != null)
+                {
+                    ;
+                }
+                else
+                {
+                    editList.Show();
+                }
             }
         }
     }
 }
-
 
