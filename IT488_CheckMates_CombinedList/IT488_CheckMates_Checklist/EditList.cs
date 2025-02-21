@@ -33,9 +33,9 @@ namespace IT488_CheckMates_Checklist
                 editText.Clear();
                 this.Close();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show(ex.Message,"ERROR");
+                MessageBox.Show("Please enter a unique name without spaces","ERROR");
             }
         }
 

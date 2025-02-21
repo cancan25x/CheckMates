@@ -30,6 +30,7 @@ namespace IT488_CheckMates_Homescreen
             
         }
         
+        //Fills the grid on task page by taking the list name from the homepage
         private void fill_grid()
         {
             string listName = HomePage.instance.listName.Text;
@@ -38,7 +39,7 @@ namespace IT488_CheckMates_Homescreen
             SQLiteCommand cmd = new SQLiteCommand($@"SELECT taskName AS ""Name"", dueDate AS ""Due Date"", priority AS ""Priority"" FROM {listName};", connectionString);            
             DataTable dt = new DataTable();
             SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);
-
+            /*
             DataGridViewButtonColumn deleteButtonColumn = new DataGridViewButtonColumn();
             deleteButtonColumn.HeaderText = "Delete";
             deleteButtonColumn.Name = "Delete";
@@ -48,7 +49,8 @@ namespace IT488_CheckMates_Homescreen
             if (dataGridView1.Columns["Delete"] == null)
             {
                 dataGridView1.Columns.Insert(columnIndexs, deleteButtonColumn);
-            }        
+            } 
+            */
             adapter.Fill(dt);
             dataGridView1.DataSource = dt;
             connectionString.Close();

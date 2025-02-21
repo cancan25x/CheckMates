@@ -60,6 +60,7 @@ namespace IT488_CheckMates_Checklist
             }
         }
 
+        //not actually a clear button but a button that brings up the editlist page 
         private void ClearButton_Click(object sender, EventArgs e)
         {
             string loadList = checkedListBox1.SelectedIndex.ToString();
@@ -94,26 +95,33 @@ namespace IT488_CheckMates_Checklist
         private void addButton_Click(object sender, EventArgs e)
         {
             string newItem = itemTextBox.Text.Trim();
-
-            if (!string.IsNullOrEmpty(newItem))
+            try
             {
-                checkedListBox1.Items.Add(newItem);
-                string newList = itemTextBox.Text;
+                if (!string.IsNullOrEmpty(newItem))
+                {
+                    
+                    string newList = itemTextBox.Text;
 
-                connectionString.Open();
-                SQLiteCommand cmd = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS {newList} (taskName TEXT NOT NULL PRIMARY KEY," +
-                    $@" dueDate TEXT NOT NULL, priority TEXT NOT NULL)", connectionString);
-                SQLiteCommand cmd2 = new SQLiteCommand($@"INSERT INTO {newList} VALUES("" "", "" "", "" "");", connectionString);
-                cmd.ExecuteNonQuery();
-                cmd2.ExecuteNonQuery();
-                connectionString.Close();
-                fillCheckList();
-                itemTextBox.Text = string.Empty;
-                listBox.Text = string.Empty;
+                    connectionString.Open();
+                    SQLiteCommand cmd = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS {newList} (taskName TEXT NOT NULL PRIMARY KEY," +
+                        $@" dueDate TEXT NOT NULL, priority TEXT NOT NULL)", connectionString);
+                    SQLiteCommand cmd2 = new SQLiteCommand($@"INSERT INTO {newList} VALUES("" "", "" "", "" "");", connectionString);
+                    cmd.ExecuteNonQuery();
+                    cmd2.ExecuteNonQuery();
+                    connectionString.Close();
+                    checkedListBox1.Items.Add(newItem);
+                    fillCheckList();
+                    itemTextBox.Text = string.Empty;
+                    listBox.Text = string.Empty;
+                }
+                else
+                {
+                    MessageBox.Show("Please enter a list to add.");
+                }
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show("Please enter a list to add.");
+                MessageBox.Show("Please no spaces or duplicate names", "ERROR");
             }
         }
 
