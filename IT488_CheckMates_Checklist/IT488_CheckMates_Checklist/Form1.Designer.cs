@@ -35,6 +35,8 @@
             this.itemTextBox = new System.Windows.Forms.TextBox();
             this.removeButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -104,12 +106,23 @@
             this.clearButton.Text = "Clear List";
             this.clearButton.UseVisualStyleBackColor = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pictureBox1.Image = global::IT488_CheckMates_Checklist.Properties.Resources.fireworks;
+            this.pictureBox1.Location = new System.Drawing.Point(30, 185);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(393, 189);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(477, 568);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.removeButton);
             this.Controls.Add(this.itemTextBox);
@@ -118,6 +131,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,6 +144,7 @@
         private System.Windows.Forms.TextBox itemTextBox;
         private System.Windows.Forms.Button removeButton;
         private System.Windows.Forms.Button clearButton;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
