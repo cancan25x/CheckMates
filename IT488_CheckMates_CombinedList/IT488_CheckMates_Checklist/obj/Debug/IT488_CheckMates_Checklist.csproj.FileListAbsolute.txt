@@ -52,3 +52,4 @@ C:\Users\canyonreynolds\source\repos\IT488_CheckMates_CombinedList\IT488_CheckMa
 C:\Users\canyonreynolds\source\repos\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\canyonreynolds\source\repos\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\System.Data.SQLite.xml
 C:\Users\canyonreynolds\source\repos\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_Ch.CDE154D6.Up2Date
+C:\Users\canyonreynolds\source\repos\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.AddTask.resources

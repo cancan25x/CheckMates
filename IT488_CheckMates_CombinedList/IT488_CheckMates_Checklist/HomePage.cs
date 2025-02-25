@@ -1,8 +1,10 @@
-﻿using IT488_CheckMates_Homescreen;
+﻿using IT488_CheckMates_Checklist.Properties;
+using IT488_CheckMates_Homescreen;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
+using System.Drawing;
 using System.Windows.Forms;
 using static System.Windows.Forms.LinkLabel;
 
@@ -31,11 +33,26 @@ namespace IT488_CheckMates_Checklist
             instance = this;
 
             fillCheckList();
-
+            //For pulling the list name to another page
             listName = listBox;
+            
+            /*
+            // Initialize existing PictureBox with embedded image
+            pictureBox1.Image = Resources.fireworks; // Access the GIF from resources
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.Visible = false; // Hide initially
 
+            // Set up the animation timer
+            animationTimer = new Timer();
+            animationTimer.Interval = 100; // Refresh every 100 milliseconds
+            animationTimer.Tick += new EventHandler(OnAnimationTimerTick);
+
+            // Add click event handler for PictureBox
+            pictureBox1.Click += new EventHandler(PictureBox_Click);
+            checkedListBox1.ItemCheck += new ItemCheckEventHandler(CheckedListBox_ItemCheck);
+            */
         }
-
+        // Remove selected item from checked list box
         private void RemoveButton_Click(object sender, EventArgs e)
         {
             if (checkedListBox1.SelectedItem != null)
@@ -63,6 +80,7 @@ namespace IT488_CheckMates_Checklist
         //not actually a clear button but a button that brings up the editlist page 
         private void ClearButton_Click(object sender, EventArgs e)
         {
+            //checks if page is open and if not shows it
             string loadList = checkedListBox1.SelectedIndex.ToString();
             TaskPage taskPage = new TaskPage();
             if ((Application.OpenForms["TaskPage"] as TaskPage) != null)
@@ -70,17 +88,26 @@ namespace IT488_CheckMates_Checklist
                 ;
             }
             else
-            {
-                taskPage.Show();
-            }
+            {   //stops you from trying to load a list without selecting anything 
+                try
+                {
+                    taskPage.Show();
 
+                }
+                catch (Exception)
+                {
+                    ;
+                }
+            }
         }
+        
+        // Resize the checked list box when the form is resized
         private void Form1_Resize(object sender, EventArgs e)
         {
             checkedListBox1.Width = this.ClientSize.Width;
             checkedListBox1.Height = this.ClientSize.Height;
         }
-
+        // Handle Enter key press to add item
         private void ItemTextBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -91,7 +118,7 @@ namespace IT488_CheckMates_Checklist
                 e.SuppressKeyPress = true;
             }
         }
-
+        // Add item to checked list box
         private void addButton_Click(object sender, EventArgs e)
         {
             string newItem = itemTextBox.Text.Trim();
@@ -125,12 +152,38 @@ namespace IT488_CheckMates_Checklist
             }
         }
 
-        //Ensures there is only on check box at a time 
+        //Ensures there is only on check box at a time & Checks if all items are checked and show/hide PictureBox accordingly
         private void checkedListBox1_ItemCheck(object sender, ItemCheckEventArgs e)
         {
             for (int ix = 0; ix < checkedListBox1.Items.Count; ++ix)
                 if (ix != e.Index) checkedListBox1.SetItemChecked(ix, false);
             listBox.Text = checkedListBox1.SelectedItem.ToString();
+
+            /*
+            this.BeginInvoke(new Action(() =>
+            {
+                bool allChecked = true;
+                for (int i = 0; i < checkedListBox1.Items.Count; i++)
+                {
+                    if (checkedListBox1.GetItemCheckState(i) != CheckState.Checked)
+                    {
+                        allChecked = false;
+                        break;
+                    }
+                }
+
+                if (allChecked && e.NewValue == CheckState.Checked)
+                {
+                    pictureBox1.Visible = true;
+                    animationTimer.Start(); // Start the animation timer
+                }
+                else
+                {
+                    pictureBox1.Visible = false;
+                    animationTimer.Stop(); // Stop the animation timer
+                }
+            }));
+            */
         }
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -173,6 +226,26 @@ namespace IT488_CheckMates_Checklist
                 }
             }
         }
+        // Method called when form loads
+        private void HomePage_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        /* Hide PictureBox and stop animation timer when PictureBox is clicked
+        private void PictureBox_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = false; // Hide the PictureBox when clicked
+            animationTimer.Stop(); // Stop the animation timer
+        }
+
+        // Update GIF frames in PictureBox
+        private void OnAnimationTimerTick(object sender, EventArgs e)
+        {
+            ImageAnimator.UpdateFrames(pictureBox1.Image); // Update the frames of the GIF
+            pictureBox1.Invalidate(); // Redraw the PictureBox
+        }
+        */
     }
 }
 

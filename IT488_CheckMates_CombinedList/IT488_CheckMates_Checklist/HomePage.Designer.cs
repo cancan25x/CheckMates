@@ -150,7 +150,8 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "HomePage";
-            this.Text = "Form1";
+            this.Text = "CheckItOff";
+            this.Load += new System.EventHandler(this.HomePage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

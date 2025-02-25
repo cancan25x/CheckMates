@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\listcreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\listcreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|c:\\users\\canyonreynolds\\source\\repos\\it488_checkmates_combinedlist\\it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\editlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\editlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|c:\\users\\canyonreynolds\\source\\repos\\it488_checkmates_combinedlist\\it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\editlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\editlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|c:\\users\\canyonreynolds\\source\\repos\\it488_checkmates_combinedlist\\it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|c:\\users\\canyonreynolds\\source\\repos\\it488_checkmates_combinedlist\\it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|c:\\users\\canyonreynolds\\source\\repos\\it488_checkmates_combinedlist\\it488_checkmates_checklist\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +34,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddTask.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs",
+              "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\AddTask.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs",
+              "RelativeToolTip": "IT488_CheckMates_Checklist\\AddTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T02:29:47.381Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditList.cs",
-              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\EditList.cs",
-              "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\EditList.cs",
-              "ToolTip": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\EditList.cs",
-              "RelativeToolTip": "IT488_CheckMates_Checklist\\EditList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABKAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AddTask.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs",
+              "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\AddTask.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs [Design]",
+              "RelativeToolTip": "IT488_CheckMates_Checklist\\AddTask.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T06:44:46.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditList.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\EditList.cs",
-              "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\EditList.cs",
-              "ToolTip": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\EditList.cs [Design]",
-              "RelativeToolTip": "IT488_CheckMates_Checklist\\EditList.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T06:41:22.354Z",
+              "WhenOpened": "2025-02-25T02:13:31.738Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskPage.cs",
+              "DocumentIndex": 1,
+              "Title": "TaskPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
               "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\TaskPage.cs",
-              "ToolTip": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
-              "RelativeToolTip": "IT488_CheckMates_Checklist\\TaskPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA+AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs [Design]",
+              "RelativeToolTip": "IT488_CheckMates_Checklist\\TaskPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T04:18:52.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListCreationForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\ListCreationForm.cs",
-              "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\ListCreationForm.cs",
-              "ToolTip": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\ListCreationForm.cs [Design]",
-              "RelativeToolTip": "IT488_CheckMates_Checklist\\ListCreationForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T04:18:42.363Z",
+              "WhenOpened": "2025-02-25T01:23:51.286Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\HomePage.cs",
-              "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\HomePage.cs",
-              "ToolTip": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\HomePage.cs",
-              "RelativeToolTip": "IT488_CheckMates_Checklist\\HomePage.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwJwAAABBAAAAAAAAAA==",
+              "Title": "TaskPage.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
+              "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\TaskPage.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
+              "RelativeToolTip": "IT488_CheckMates_Checklist\\TaskPage.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwHoAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T04:17:31Z",
+              "WhenOpened": "2025-02-23T08:48:40.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "HomePage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\HomePage.cs",
               "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\HomePage.cs",
@@ -118,6 +102,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T04:09:21.432Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\HomePage.cs",
+              "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\HomePage.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\source\\repos\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\HomePage.cs",
+              "RelativeToolTip": "IT488_CheckMates_Checklist\\HomePage.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T08:41:24.986Z",
+              "EditorCaption": ""
             }
           ]
         }
