@@ -15,6 +15,7 @@ namespace IT488_CheckMates_Homescreen
     public partial class TaskPage : Form
     {
         public static TaskPage instance;
+        public TextBox listName;
 
         SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
         int num = 1;
@@ -23,11 +24,12 @@ namespace IT488_CheckMates_Homescreen
             InitializeComponent();
             instance = this;      
             fill_grid();
+            listName = listBox;
         }
-
+        //pulls the list name from the homepage to allow it to be used as a variable
         private void Form1_Load_1(object sender, EventArgs e)
-        {
-
+        {            
+            listBox.Text = HomePage.instance.listName.Text;
         }
 
         //Fills the grid on task page by taking the list name from the homepage this is to only be used when loading in
@@ -107,6 +109,28 @@ namespace IT488_CheckMates_Homescreen
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void addTask_Click(object sender, EventArgs e)
+        {
+            /*
+            string taskName = "";
+            string dueDate = "";
+            string priority = "";
+            string listName = listBox.Text;
+            dataGridView1.Refresh();
+            connectionString.Open();
+            SQLiteCommand cmd = new SQLiteCommand($@"INSERT INTO {listName} VALUES ({taskName},{dueDate},{priority}" ;, connectionString);
+            DataTable dt = new DataTable();
+            SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);           
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
+            connectionString.Close();*/
+        }
+
+        private void deleteTasks_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
