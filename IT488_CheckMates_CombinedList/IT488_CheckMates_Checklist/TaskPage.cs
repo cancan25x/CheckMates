@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
 using IT488_CheckMates_Checklist;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
 
 namespace IT488_CheckMates_Homescreen
 {
@@ -24,7 +25,7 @@ namespace IT488_CheckMates_Homescreen
             InitializeComponent();
             instance = this;      
             fill_grid();
-            listName = listBox;
+            listName = listBox;            
         }
         //pulls the list name from the homepage to allow it to be used as a variable
         private void Form1_Load_1(object sender, EventArgs e)
@@ -38,25 +39,13 @@ namespace IT488_CheckMates_Homescreen
             try
             {
                 string listName = HomePage.instance.listName.Text;
-                dataGridView1.Refresh();
+                taskGrid.Refresh();
                 connectionString.Open();
                 SQLiteCommand cmd = new SQLiteCommand($@"SELECT taskName AS ""Name"", dueDate AS ""Due Date"", priority AS ""Priority"" FROM {listName};", connectionString);
                 DataTable dt = new DataTable();
-                SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);
-                /*  Incase we want a delet button in the grid
-                DataGridViewButtonColumn deleteButtonColumn = new DataGridViewButtonColumn();
-                deleteButtonColumn.HeaderText = "Delete";
-                deleteButtonColumn.Name = "Delete";
-                deleteButtonColumn.Text = "Delete";
-                deleteButtonColumn.UseColumnTextForButtonValue = true;
-                int columnIndexs = 0;
-                if (dataGridView1.Columns["Delete"] == null)
-                {
-                    dataGridView1.Columns.Insert(columnIndexs, deleteButtonColumn);
-                } 
-                */
+                SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);               
                 adapter.Fill(dt);
-                dataGridView1.DataSource = dt;
+                taskGrid.DataSource = dt;
                 connectionString.Close();
 
                 DataGridViewCheckBoxColumn checkColumn = new DataGridViewCheckBoxColumn();
@@ -67,30 +56,75 @@ namespace IT488_CheckMates_Homescreen
                 checkColumn.FillWeight = 10;
                 while (num < 2)
                 {
-                    dataGridView1.Columns.Add(checkColumn);
+                    taskGrid.Columns.Add(checkColumn);
                     num = num + num;
                 }
+                checkColumn.TrueValue = 1;
+                checkColumn.FalseValue = 0;
             }
             catch (Exception)
             {
                 this.Close();
                 MessageBox.Show("Please select a list", "ERROR");
             }
+        }      
+
+        private void addTask_Click(object sender, EventArgs e)
+        {
+            AddTask addTask = new AddTask();
+            addTask.Show();
         }
-        //call this when refresh grid after Adding, Editing, or removing data
-        private void refresh_grid()
+
+        private void deleteTasks_Click(object sender, EventArgs e)
+        {
+            /*
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete these tasks off your list?", "Are you sure?", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                try
+                {
+                    //foreach (DataGridViewRow row in taskGrid.Rows)
+                    for (int i = taskGrid.Rows.Count - 1; i >= 0; i--)  
+                    {
+                        if ((bool)(taskGrid.Rows[i].Cells[3].Value = true))
+                        {
+                            string list = listBox.Text;
+                            string name = taskGrid.Rows[i].Cells[1].Value.ToString();
+                            connectionString.Open();
+                            SQLiteCommand cmd = new SQLiteCommand($@"DELETE FROM {list} WHERE taskName = ""{name}"";", connectionString);
+                            cmd.ExecuteNonQuery();
+                            connectionString.Close();
+                            fill_grid();
+                        }                        
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+
+            }
+            */
+        }
+
+        //call this when refresh grid after Adding, Editing, or removing data---Might not be needed
+        /*private void refresh_grid()
         {
             try
             {
                 string listName = HomePage.instance.listName.Text;
-                dataGridView1.Refresh();
+                taskGrid.Refresh();
                 connectionString.Open();
                 SQLiteCommand cmd = new SQLiteCommand($@"SELECT taskName AS ""Name"", dueDate AS ""Due Date"", priority AS ""Priority"" FROM {listName};", connectionString);
                 DataTable dt = new DataTable();
                 SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);
                
                 adapter.Fill(dt);
-                dataGridView1.DataSource = dt;
+                taskGrid.DataSource = dt;
                 connectionString.Close();
 
                 DataGridViewCheckBoxColumn checkColumn = new DataGridViewCheckBoxColumn();
@@ -101,7 +135,7 @@ namespace IT488_CheckMates_Homescreen
                 checkColumn.FillWeight = 10;
                 while (num < 2)
                 {
-                    dataGridView1.Columns.Add(checkColumn);
+                    taskGrid.Columns.Add(checkColumn);
                     num = num + num;
                 }
             }
@@ -109,28 +143,6 @@ namespace IT488_CheckMates_Homescreen
             {
                 MessageBox.Show(ex.Message);
             }
-        }
-
-        private void addTask_Click(object sender, EventArgs e)
-        {
-            /*
-            string taskName = "";
-            string dueDate = "";
-            string priority = "";
-            string listName = listBox.Text;
-            dataGridView1.Refresh();
-            connectionString.Open();
-            SQLiteCommand cmd = new SQLiteCommand($@"INSERT INTO {listName} VALUES ({taskName},{dueDate},{priority}" ;, connectionString);
-            DataTable dt = new DataTable();
-            SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);           
-            adapter.Fill(dt);
-            dataGridView1.DataSource = dt;
-            connectionString.Close();*/
-        }
-
-        private void deleteTasks_Click(object sender, EventArgs e)
-        {
-
-        }
+        }*/
     }
 }
