@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\",
+  "WorkspaceRootPath": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|c:\\users\\canyonreynolds\\source\\it488_checkmates_combinedlist\\it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|c:\\users\\canyonreynolds\\source\\it488_checkmates_combinedlist\\it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|c:\\users\\canyonreynolds\\documents\\github\\checkmates\\it488_checkmates_combinedlist\\it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\it488_checkmates_checklist\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AddTask.cs",
-              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs",
               "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\AddTask.cs",
-              "ToolTip": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs",
               "RelativeToolTip": "IT488_CheckMates_Checklist\\AddTask.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAIwB0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -48,7 +48,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
               "$type": "Bookmark",
@@ -56,11 +56,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TaskPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
               "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\TaskPage.cs",
-              "ToolTip": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs [Design]",
+              "ToolTip": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs [Design]",
               "RelativeToolTip": "IT488_CheckMates_Checklist\\TaskPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T19:07:34.281Z",
@@ -68,11 +68,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AddTask.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs",
               "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\AddTask.cs",
-              "ToolTip": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs [Design]",
+              "ToolTip": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\AddTask.cs [Design]",
               "RelativeToolTip": "IT488_CheckMates_Checklist\\AddTask.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T02:13:31.738Z",
@@ -82,11 +82,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TaskPage.cs",
-              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
               "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\TaskPage.cs",
-              "ToolTip": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
               "RelativeToolTip": "IT488_CheckMates_Checklist\\TaskPage.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAUwG4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T08:48:40.056Z",
               "EditorCaption": ""
@@ -95,14 +95,13 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\HomePage.cs",
               "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\HomePage.cs",
-              "ToolTip": "C:\\Users\\canyonreynolds\\source\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\HomePage.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\Documents\\GitHub\\CheckMates\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\HomePage.cs",
               "RelativeToolTip": "IT488_CheckMates_Checklist\\HomePage.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAiwEsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T08:41:24.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T08:41:24.986Z"
             }
           ]
         }
