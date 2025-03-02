@@ -84,12 +84,6 @@
     <Compile Include="HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListCreationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ListCreationForm.Designer.cs">
-      <DependentUpon>ListCreationForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaskPage.cs">
@@ -106,9 +100,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ListCreationForm.resx">
-      <DependentUpon>ListCreationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
