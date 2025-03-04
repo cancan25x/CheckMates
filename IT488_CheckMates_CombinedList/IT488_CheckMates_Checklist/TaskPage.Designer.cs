@@ -59,6 +59,8 @@
             this.taskGrid.Location = new System.Drawing.Point(39, 203);
             this.taskGrid.MultiSelect = false;
             this.taskGrid.Name = "taskGrid";
+            this.taskGrid.RowHeadersVisible = false;
+            this.taskGrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.taskGrid.ShowCellToolTips = false;
             this.taskGrid.ShowEditingIcon = false;
             this.taskGrid.Size = new System.Drawing.Size(396, 218);

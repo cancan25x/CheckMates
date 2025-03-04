@@ -41,7 +41,8 @@ namespace IT488_CheckMates_Homescreen
                 string listName = HomePage.instance.listName.Text;
                 taskGrid.Refresh();
                 connectionString.Open();
-                SQLiteCommand cmd = new SQLiteCommand($@"SELECT taskName AS ""Name"", dueDate AS ""Due Date"", priority AS ""Priority"" FROM {listName};", connectionString);
+                SQLiteCommand cmd = new SQLiteCommand($@"SELECT taskName AS ""Name"", dueDate AS ""Due Date"", priority
+                AS ""Priority"" FROM {listName};", connectionString);
                 DataTable dt = new DataTable();
                 SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);               
                 adapter.Fill(dt);
