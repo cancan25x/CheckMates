@@ -29,7 +29,7 @@ namespace IT488_CheckMates_Checklist
                 SQLiteCommand cmd = new SQLiteCommand($"ALTER TABLE {listName} RENAME TO {newlistName}", connectionString);
                 cmd.ExecuteNonQuery();
                 connectionString.Close();
-                queryHomepage.fillChecklist();
+                HomePage.instance.fillCheckList();
                 editText.Clear();
                 this.Close();
             }

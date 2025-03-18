@@ -148,9 +148,11 @@
             // dueDate
             // 
             this.dueDate.Location = new System.Drawing.Point(28, 215);
+            this.dueDate.Mask = "00/00/0000";
             this.dueDate.Name = "dueDate";
             this.dueDate.Size = new System.Drawing.Size(227, 20);
             this.dueDate.TabIndex = 18;
+            this.dueDate.ValidatingType = typeof(System.DateTime);
             // 
             // AddTask
             // 

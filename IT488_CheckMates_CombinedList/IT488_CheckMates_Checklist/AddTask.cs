@@ -27,12 +27,12 @@ namespace IT488_CheckMates_Checklist
         {
             listBox.Text = HomePage.instance.listName.Text;
             fill_priority();
-            comboPriority.SelectedItem = "Trivial";
+            comboPriority.SelectedItem = "1 - High";
         }
 
         private void fill_priority()
         {
-            string[] priority = {"Trivial", "Medium", "High"};
+            string[] priority = {"1 - High", "2 - Medium", "3 - Low" };
             foreach (string i in priority)
             {
                 comboPriority.Items.Add(i);
