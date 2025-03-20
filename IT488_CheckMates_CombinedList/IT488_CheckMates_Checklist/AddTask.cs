@@ -19,7 +19,7 @@ namespace IT488_CheckMates_Checklist
         public AddTask()
         {
             InitializeComponent();
-            dueDate.Mask = "00/00/00";
+            
             
         }
         //pulls the list name from the homepage to allow it to be used as a variable 
@@ -27,16 +27,18 @@ namespace IT488_CheckMates_Checklist
         {
             listBox.Text = HomePage.instance.listName.Text;
             fill_priority();
-            comboPriority.SelectedItem = "Trivial";
+            taskName.Select();
+
         }
 
         private void fill_priority()
         {
-            string[] priority = {"Trivial", "Medium", "High"};
+            string[] priority = { "1 - High","2 - Medium", "3 - Low" };
             foreach (string i in priority)
             {
-                comboPriority.Items.Add(i);
+                comboPriority.Items.Add(i);                
             }
+            comboPriority.SelectedItem = "1 - High";
         }
 
         private void addButton_Click(object sender, EventArgs e)
@@ -44,11 +46,11 @@ namespace IT488_CheckMates_Checklist
             try
             {
                 string taskName1 = taskName.Text;
-                string dueDate1 = dueDate.Text;
+                string done = "No";
                 string priority1 = comboPriority.SelectedItem.ToString();
                 string listName = listBox.Text;
                 connectionString.Open();
-                SQLiteCommand cmd = new SQLiteCommand($@"INSERT INTO {listName} VALUES (""{taskName1}"",""{dueDate1}"",""{priority1}"");",
+                SQLiteCommand cmd = new SQLiteCommand($@"INSERT INTO {listName} VALUES (""{taskName1}"",""{done}"",""{priority1}"");",
                     connectionString);
                 cmd.ExecuteNonQuery();
                 connectionString.Close();

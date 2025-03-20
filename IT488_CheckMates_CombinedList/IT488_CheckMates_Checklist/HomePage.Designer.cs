@@ -114,7 +114,7 @@
             // 
             // listBox
             // 
-            this.listBox.Location = new System.Drawing.Point(168, 39);
+            this.listBox.Location = new System.Drawing.Point(181, 0);
             this.listBox.Name = "listBox";
             this.listBox.ReadOnly = true;
             this.listBox.Size = new System.Drawing.Size(178, 20);

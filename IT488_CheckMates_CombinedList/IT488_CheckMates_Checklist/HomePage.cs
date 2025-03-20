@@ -14,6 +14,7 @@ namespace IT488_CheckMates_Checklist
     {
         public static HomePage instance;
         public TextBox listName;
+        public CheckedListBox checkBox;
 
         SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
         public HomePage()
@@ -32,10 +33,11 @@ namespace IT488_CheckMates_Checklist
 
             instance = this;
 
-            fillCheckList();
+           
             //For pulling the list name to another page
             listName = listBox;
-            
+            checkBox = checkedListBox1;
+            queryHomepage.fillChecklist();
             /*
             // Initialize existing PictureBox with embedded image
             pictureBox1.Image = Resources.fireworks; // Access the GIF from resources
@@ -65,7 +67,7 @@ namespace IT488_CheckMates_Checklist
                     SQLiteCommand cmd = new SQLiteCommand($"Drop TABLE {list}", connectionString);
                     cmd.ExecuteNonQuery();
                     connectionString.Close();
-                    fillCheckList();
+                    queryHomepage.fillChecklist();
 
                     checkedListBox1.Items.Remove(checkedListBox1.SelectedItem);
                     listBox.Text = string.Empty;
@@ -131,13 +133,11 @@ namespace IT488_CheckMates_Checklist
 
                     connectionString.Open();
                     SQLiteCommand cmd = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS {newList} (taskName TEXT NOT NULL PRIMARY KEY," +
-                        $@" dueDate TEXT NOT NULL, priority TEXT NOT NULL)", connectionString);
-                    SQLiteCommand cmd2 = new SQLiteCommand($@"INSERT INTO {newList} VALUES("" "", "" "", "" "");", connectionString);
-                    cmd.ExecuteNonQuery();
-                    cmd2.ExecuteNonQuery();
+                        $@" done TEXT NOT NULL, priority TEXT NOT NULL)", connectionString);
+                    cmd.ExecuteNonQuery();                   
                     connectionString.Close();
                     checkedListBox1.Items.Add(newItem);
-                    fillCheckList();
+                    queryHomepage.fillChecklist();
                     itemTextBox.Text = string.Empty;
                     listBox.Text = string.Empty;
                 }
@@ -148,7 +148,7 @@ namespace IT488_CheckMates_Checklist
             }
             catch (Exception)
             {
-                MessageBox.Show("Please no spaces or duplicate names", "ERROR");
+                MessageBox.Show("Please no spaces or duplicate names", "ERROR");                
             }
         }
 
@@ -188,24 +188,7 @@ namespace IT488_CheckMates_Checklist
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
            
-        }
-
-        public void fillCheckList()
-        {
-            connectionString.Open();
-            checkedListBox1.Items.Clear();
-            SQLiteCommand cmd = new SQLiteCommand(@"SELECT NAME FROM sqlite_master WHERE TYPE =""table"" ORDER BY NAME;", connectionString);
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);
-            adapter.Fill(dt);
-
-            foreach (DataRow dr in dt.Rows)
-            {
-                checkedListBox1.Items.Add(dr["Name"].ToString());
-            }
-            connectionString.Close();
-        }
+        }       
 
         private void editButton_Click(object sender, EventArgs e)
         {
@@ -229,7 +212,7 @@ namespace IT488_CheckMates_Checklist
         // Method called when form loads
         private void HomePage_Load(object sender, EventArgs e)
         {
-
+            queryHomepage.fillChecklist();
         }
 
         /* Hide PictureBox and stop animation timer when PictureBox is clicked
