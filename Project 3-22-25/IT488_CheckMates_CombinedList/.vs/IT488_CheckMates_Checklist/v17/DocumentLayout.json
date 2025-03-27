@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\canyonreynolds\\source\\Nate work\\Project 3-22-25\\IT488_CheckMates_CombinedList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|c:\\users\\canyonreynolds\\source\\nate work\\project 3-22-25\\it488_checkmates_combinedlist\\it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}|IT488_CheckMates_Checklist\\IT488_CheckMates_Checklist.csproj|solutionrelative:it488_checkmates_checklist\\taskpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskPage.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\Nate work\\Project 3-22-25\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
+              "RelativeDocumentMoniker": "IT488_CheckMates_Checklist\\TaskPage.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\source\\Nate work\\Project 3-22-25\\IT488_CheckMates_CombinedList\\IT488_CheckMates_Checklist\\TaskPage.cs",
+              "RelativeToolTip": "IT488_CheckMates_Checklist\\TaskPage.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAiwKwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T01:39:24.943Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

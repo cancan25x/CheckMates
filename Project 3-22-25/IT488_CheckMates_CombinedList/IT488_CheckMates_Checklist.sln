@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IT488_CheckMates_Checklist", "IT488_CheckMates_Checklist\IT488_CheckMates_Checklist.csproj", "{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogInPage2", "..\LogInPage2\LogInPage2\LogInPage2.csproj", "{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBBD6A1-7DCC-47FB-A797-9A29A5DBBE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEDE2AE5-E489-4D11-BC4F-55FBA02DBB4D}
+	EndGlobalSection
+EndGlobal
