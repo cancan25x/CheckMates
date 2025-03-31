@@ -120,3 +120,25 @@ C:\Users\canyonreynolds\source\Nate work\IT488_CheckMates_CombinedList\IT488_Che
 C:\Users\canyonreynolds\source\Nate work\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_Ch.CDE154D6.Up2Date
 C:\Users\canyonreynolds\source\Nate work\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.exe
 C:\Users\canyonreynolds\source\Nate work\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.pdb
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\IT488_CheckMates_Checklist.exe.config
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\IT488_CheckMates_Checklist.exe
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\IT488_CheckMates_Checklist.pdb
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\EntityFramework.dll
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\System.Data.SQLite.dll
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\EntityFramework.xml
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\bin\Debug\System.Data.SQLite.xml
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.csproj.AssemblyReference.cache
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.EditList.resources
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.AddTask.resources
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.HomePage.resources
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.Properties.Resources.resources
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Homescreen.TaskPage.resources
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.csproj.GenerateResource.cache
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.csproj.CoreCompileInputs.cache
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_Ch.CDE154D6.Up2Date
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.exe
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Debug\IT488_CheckMates_Checklist.pdb

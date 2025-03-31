@@ -36,6 +36,10 @@
             this.taskName = new System.Windows.Forms.TextBox();
             this.addButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dueDate = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -99,7 +103,7 @@
             // 
             this.addButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.addButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.addButton.Location = new System.Drawing.Point(28, 199);
+            this.addButton.Location = new System.Drawing.Point(28, 324);
             this.addButton.Margin = new System.Windows.Forms.Padding(2);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(148, 29);
@@ -112,7 +116,7 @@
             // 
             this.cancelButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.cancelButton.Location = new System.Drawing.Point(193, 199);
+            this.cancelButton.Location = new System.Drawing.Point(200, 324);
             this.cancelButton.Margin = new System.Windows.Forms.Padding(2);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(148, 29);
@@ -121,12 +125,56 @@
             this.cancelButton.UseVisualStyleBackColor = false;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(47, 191);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "label2";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.Control;
+            this.label5.Location = new System.Drawing.Point(25, 191);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(74, 18);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Due Date:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.Control;
+            this.label6.Location = new System.Drawing.Point(25, 260);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(161, 18);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "Example MM/DD/YYYY";
+            // 
+            // dueDate
+            // 
+            this.dueDate.Location = new System.Drawing.Point(28, 222);
+            this.dueDate.Mask = "00/00/0000";
+            this.dueDate.Name = "dueDate";
+            this.dueDate.Size = new System.Drawing.Size(227, 20);
+            this.dueDate.TabIndex = 20;
+            this.dueDate.ValidatingType = typeof(System.DateTime);
+            // 
             // AddTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(371, 266);
+            this.ClientSize = new System.Drawing.Size(371, 393);
+            this.Controls.Add(this.dueDate);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.taskName);
@@ -153,5 +201,9 @@
         private System.Windows.Forms.TextBox taskName;
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.Button cancelButton;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.MaskedTextBox dueDate;
     }
 }

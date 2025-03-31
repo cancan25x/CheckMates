@@ -17,7 +17,9 @@ namespace IT488_CheckMates_Checklist
         public TextBox listName;
         public CheckedListBox checkBox;
 
-        SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
+        SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db; Version=3;");
+        //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db");
+        //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
         public HomePage()
         {
             InitializeComponent();
@@ -134,10 +136,10 @@ namespace IT488_CheckMates_Checklist
 
                     connectionString.Open();
                     SQLiteCommand cmd = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS {newList} (taskName TEXT NOT NULL PRIMARY KEY," +
-                        $@" done TEXT NOT NULL, priority TEXT NOT NULL)", connectionString);
+                    $@" done TEXT NOT NULL, dueDate TEXT NOT NULL, priority TEXT NOT NULL)", connectionString);
                     cmd.ExecuteNonQuery();                   
                     connectionString.Close();
-                    checkedListBox1.Items.Add(newItem);
+                    //checkedListBox1.Items.Add(newItem);
                     queryHomepage.fillChecklist();
                     itemTextBox.Text = string.Empty;
                     listBox.Text = string.Empty;
@@ -190,7 +192,7 @@ namespace IT488_CheckMates_Checklist
         {
            
         }       
-
+        
         private void editButton_Click(object sender, EventArgs e)
         {
             EditList editList = new EditList();
@@ -214,6 +216,7 @@ namespace IT488_CheckMates_Checklist
         private void HomePage_Load(object sender, EventArgs e)
         {
             queryHomepage.fillChecklist();
+            //fill_checklist();
         }
 
         /* Hide PictureBox and stop animation timer when PictureBox is clicked
@@ -230,6 +233,22 @@ namespace IT488_CheckMates_Checklist
             pictureBox1.Invalidate(); // Redraw the PictureBox
         }
         */
+
+        private void fill_checklist()
+        {
+            CheckedListBox checkedListBox = checkedListBox1;         
+            connectionString.Open();
+            checkedListBox.Items.Clear();
+            SQLiteCommand cmd = new SQLiteCommand(@"SELECT NAME FROM sqlite_master WHERE TYPE ='table' ORDER BY NAME ASC;", connectionString);
+            DataTable dt = new DataTable();
+            SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);
+            adapter.Fill(dt);
+            foreach (DataRow dr in dt.Rows)
+            {
+                checkedListBox.Items.Add(dr["Name"].ToString());
+            }
+            connectionString.Close();
+        }
     }
 }
 

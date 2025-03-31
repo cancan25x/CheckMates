@@ -13,7 +13,9 @@ namespace IT488_CheckMates_Checklist
 {
     public partial class EditList : Form
     {
-        SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
+        SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db; Version=3;");
+        //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db");
+        //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
         public EditList()
         {
             InitializeComponent();

@@ -16,7 +16,7 @@ namespace LogInPage2
     public partial class loginForm : Form
     {
         // Connection string for SQLite database
-        //private readonly string connectionString = "Data Source=your_database_file.db;Version=3;";
+        //private readonly string connectionString = @"Data Source = ..\..\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\Files\toDoList.db; Version=3;";
         private readonly string connectionString = @"Data Source = ..\..\..\..\LogInPage2\LogInPage2\bin\Debug\users.db; Version=3;";
 
         // File for storing the remembered username
@@ -35,10 +35,10 @@ namespace LogInPage2
             showPasswordButton.MouseUp += ShowPasswordButton_MouseUp;          
 
             // Step 2: Create SQLite database file if it doesn't exist
-            //EnsureDatabaseFileExists();
+            EnsureDatabaseFileExists();
 
             // Step 3: Initialize database schema
-            //InitializeDatabase();
+            InitializeDatabase();
 
             // Step 6: Test the database connection
             TestConnection();
@@ -164,9 +164,8 @@ namespace LogInPage2
                     {
                         MessageBox.Show("Login successful!");
 
-                        // Open the main form
                         runCheckList();
-                        
+
                     }
                     else
                     {
@@ -222,7 +221,8 @@ namespace LogInPage2
 
         private void runCheckList()
         {
-            Application.Run(new HomePage());
+            IT488_CheckMates_Checklist.HomePage home = new IT488_CheckMates_Checklist.HomePage();
+            home.Show();
             this.Hide(); // Hide the login form
         }
     }
