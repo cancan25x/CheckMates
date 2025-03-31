@@ -16,8 +16,8 @@ namespace IT488_CheckMates_Checklist
 {
     public partial class AddTask : Form
     {
-        SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db; Version=3;");
-        //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db");
+        //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db; Version=3;");
+        SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db");
         //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
         public AddTask()
         {
@@ -87,24 +87,24 @@ namespace IT488_CheckMates_Checklist
         private static string CheckDate(string date)
         {
             string[] theDueDate = date.Split('/');
-            int month = Convert.ToInt32(theDueDate.First());
-            int day = Convert.ToInt32(theDueDate[2]);
-            int year = Convert.ToInt32(theDueDate.Last());
+            int month = Convert.ToInt32(theDueDate[0]);
+            int day = Convert.ToInt32(theDueDate[1]);
+            int year = Convert.ToInt32(theDueDate[2]);
             try
             {
                 if (month > 12)
                 {                    
-                    //MessageBox.Show("Please enter a valid month", "ERROR");
+                    MessageBox.Show("Please enter a valid month", "ERROR");
                     return null;
                 }
                 else if (day > 31)
                 {
-                    //MessageBox.Show("Pleasse enter a valid day", "ERROR");
+                    MessageBox.Show("Pleasse enter a valid day", "ERROR");
                     return null;
                 }
                 else if (year < 2025)
                 {
-                    //MessageBox.Show("Please enter a valid year", "ERROR");
+                    MessageBox.Show("Please enter a valid year", "ERROR");
                     return null;
                 }
                 else
