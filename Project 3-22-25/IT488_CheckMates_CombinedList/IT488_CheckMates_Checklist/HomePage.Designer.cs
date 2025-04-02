@@ -37,6 +37,9 @@
             this.ClearButton = new System.Windows.Forms.Button();
             this.listBox = new System.Windows.Forms.TextBox();
             this.editButton = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -44,7 +47,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
-            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Location = new System.Drawing.Point(0, 24);
             this.label1.Margin = new System.Windows.Forms.Padding(11, 12, 2, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(359, 110);
@@ -114,7 +117,7 @@
             // 
             // listBox
             // 
-            this.listBox.Location = new System.Drawing.Point(181, 0);
+            this.listBox.Location = new System.Drawing.Point(169, 445);
             this.listBox.Name = "listBox";
             this.listBox.ReadOnly = true;
             this.listBox.Size = new System.Drawing.Size(178, 20);
@@ -134,6 +137,26 @@
             this.editButton.UseVisualStyleBackColor = false;
             this.editButton.Click += new System.EventHandler(this.editButton_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.logoutToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(359, 24);
+            this.menuStrip1.TabIndex = 16;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // logoutToolStripMenuItem
+            // 
+            this.logoutToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.logoutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.logoutToolStripMenuItem.Text = "Logout";
+            this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
+            // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -148,10 +171,15 @@
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "HomePage";
             this.Text = "CheckItOff";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HomePage_FormClosing);
             this.Load += new System.EventHandler(this.HomePage_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -166,6 +194,8 @@
         private System.Windows.Forms.Button ClearButton;
         private System.Windows.Forms.TextBox listBox;
         private System.Windows.Forms.Button editButton;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
     }
 }
 

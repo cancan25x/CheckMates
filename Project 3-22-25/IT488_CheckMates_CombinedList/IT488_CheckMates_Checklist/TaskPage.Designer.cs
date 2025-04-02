@@ -69,7 +69,7 @@
             this.taskGrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.taskGrid.ShowCellToolTips = false;
             this.taskGrid.ShowEditingIcon = false;
-            this.taskGrid.Size = new System.Drawing.Size(396, 218);
+            this.taskGrid.Size = new System.Drawing.Size(353, 218);
             this.taskGrid.TabIndex = 8;
             this.taskGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.taskGrid_CellContentClick);
             // 
@@ -90,7 +90,7 @@
             // 
             this.deleteTasks.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.deleteTasks.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.deleteTasks.Location = new System.Drawing.Point(294, 143);
+            this.deleteTasks.Location = new System.Drawing.Point(251, 143);
             this.deleteTasks.Margin = new System.Windows.Forms.Padding(2);
             this.deleteTasks.Name = "deleteTasks";
             this.deleteTasks.Size = new System.Drawing.Size(141, 36);
@@ -101,7 +101,7 @@
             // 
             // listBox
             // 
-            this.listBox.Location = new System.Drawing.Point(349, 34);
+            this.listBox.Location = new System.Drawing.Point(267, 27);
             this.listBox.Name = "listBox";
             this.listBox.ReadOnly = true;
             this.listBox.Size = new System.Drawing.Size(100, 20);
@@ -128,7 +128,7 @@
             this.saveToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(475, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(432, 24);
             this.menuStrip1.TabIndex = 15;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -146,7 +146,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(475, 453);
+            this.ClientSize = new System.Drawing.Size(432, 453);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.listBox);
             this.Controls.Add(this.deleteTasks);

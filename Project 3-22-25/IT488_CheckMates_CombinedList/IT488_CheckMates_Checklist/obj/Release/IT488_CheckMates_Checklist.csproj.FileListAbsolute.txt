@@ -20,3 +20,13 @@ C:\Users\canyonreynolds\source\IT488_CheckMates_CombinedList\IT488_CheckMates_Ch
 C:\Users\canyonreynolds\source\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_Ch.CDE154D6.Up2Date
 C:\Users\canyonreynolds\source\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.exe
 C:\Users\canyonreynolds\source\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.pdb
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.csproj.AssemblyReference.cache
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.EditList.resources
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.AddTask.resources
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.HomePage.resources
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.Properties.Resources.resources
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Homescreen.TaskPage.resources
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.csproj.GenerateResource.cache
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.csproj.CoreCompileInputs.cache
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.exe
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\obj\Release\IT488_CheckMates_Checklist.pdb

@@ -16,7 +16,7 @@ namespace LogInPage2
     public partial class loginForm : Form
     {
         // Connection string for SQLite database
-        //private readonly string connectionString1 = @"Data Source = ..\..\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\Files\toDoList.db; Version=3;";
+        //private readonly string connectionString = @"Data Source = ..\..\Project 3-22-25\IT488_CheckMates_CombinedList\IT488_CheckMates_Checklist\Files\toDoList.db; Version=3;";
         private readonly string connectionString = @"Data Source = ..\..\..\..\LogInPage2\LogInPage2\bin\Debug\users.db; Version=3;";
 
         // File for storing the remembered username

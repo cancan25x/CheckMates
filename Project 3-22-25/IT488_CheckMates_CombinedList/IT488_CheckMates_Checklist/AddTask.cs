@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SQLite;
+using System.Deployment.Application;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,8 @@ namespace IT488_CheckMates_Checklist
 {
     public partial class AddTask : Form
     {
-        SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db; Version=3;");
+        //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db; Version=3;");
+        SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db");
         //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
         public AddTask()
         {
@@ -46,18 +48,27 @@ namespace IT488_CheckMates_Checklist
         {
             try
             {
-                string dueDate1 = dueDate.Text;
-                string taskName1 = taskName.Text;
-                string done = "No";
-                string priority1 = comboPriority.SelectedItem.ToString();
-                string listName = listBox.Text;
-                connectionString.Open();
-                SQLiteCommand cmd = new SQLiteCommand($@"INSERT INTO {listName} VALUES (""{taskName1}"",""{done}"",""{dueDate1}"",""{priority1}"");",
-                connectionString);
-                cmd.ExecuteNonQuery();
-                connectionString.Close();
-                TaskPage.instance.fill_grid();
-                this.Close();
+                string dueDate1 = CheckDate(dueDate.Text);
+                if (dueDate1 == null)
+                {
+                    MessageBox.Show("Please make sure you have a valid date","ERROR");
+                }
+                else
+                {
+                    string taskName1 = taskName.Text;
+                    string done = "No";
+                    string priority1 = comboPriority.SelectedItem.ToString();
+                    string listName = listBox.Text;
+                    connectionString.Open();
+                    SQLiteCommand cmd = new SQLiteCommand($@"INSERT INTO {listName} VALUES (""{taskName1}"",""{done}"",""{dueDate1}"",""{priority1}"");",
+                    connectionString);
+                    cmd.ExecuteNonQuery();
+                    connectionString.Close();
+                    TaskPage.instance.fill_grid();
+                    this.Close();
+                }
+
+                
             }
             catch (Exception)
             {
@@ -71,6 +82,42 @@ namespace IT488_CheckMates_Checklist
             taskName.Clear();
             this.Close();            
 
+        }
+        
+        private static string CheckDate(string date)
+        {
+            string[] theDueDate = date.Split('/');
+            int month = Convert.ToInt32(theDueDate[0]);
+            int day = Convert.ToInt32(theDueDate[1]);
+            int year = Convert.ToInt32(theDueDate[2]);
+            try
+            {
+                if (month > 12)
+                {                    
+                    MessageBox.Show("Please enter a valid month", "ERROR");
+                    return null;
+                }
+                else if (day > 31)
+                {
+                    MessageBox.Show("Pleasse enter a valid day", "ERROR");
+                    return null;
+                }
+                else if (year < 2025)
+                {
+                    MessageBox.Show("Please enter a valid year", "ERROR");
+                    return null;
+                }
+                else
+                {
+                    return date;
+                }
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Please enter a valid date", "ERROR");      
+                return null;
+            }           
         }
     }
 }

@@ -16,7 +16,9 @@ namespace IT488_CheckMates_Checklist
         public static HomePage instance;
         public TextBox listName;
         public CheckedListBox checkBox;
-        SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db; Version=3;");
+
+        //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db; Version=3;");
+        SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\LogInPage2\LogInPage2\Files\toDoList.db");
         //SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
         public HomePage()
         {
@@ -214,6 +216,29 @@ namespace IT488_CheckMates_Checklist
         private void HomePage_Load(object sender, EventArgs e)
         {
             queryHomepage.fillChecklist();
+            //fill_checklist();
+        }
+
+        private void HomePage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            formClose(sender, e);
+        }
+        
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            formClose(sender,e);
+        }
+        private void formClose(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to close CheckItOff?", "Are you sure?", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+                ;
+            }
         }
 
         /* Hide PictureBox and stop animation timer when PictureBox is clicked
@@ -230,6 +255,8 @@ namespace IT488_CheckMates_Checklist
             pictureBox1.Invalidate(); // Redraw the PictureBox
         }
         */
+
+
     }
 }
 
