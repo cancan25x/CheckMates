@@ -1,0 +1,3 @@
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\setup\bin\Debug\cab1.cab
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\setup\bin\Debug\setup.msi
+C:\Users\canyonreynolds\source\Nate work\Project 3-22-25\IT488_CheckMates_CombinedList\setup\bin\Debug\setup.wixpdb

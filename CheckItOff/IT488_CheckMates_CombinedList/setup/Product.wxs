@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define LogInPage2_TargetDir=$(var.LogInPage2.TargetDir)?>
+	<Product Id="*" Name="setup" Language="1033" Version="1.0.0.0" Manufacturer="CheckMates" UpgradeCode="6c7636c5-0afd-4c93-a590-dfeac32e0194">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="setup" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="setup" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+			<Component Id="LogInPage2.exe" Guid="64341b29-529c-4ef2-9be4-97ff1b5f7a82">
+			  <File Id="LogInPage2.exe" Name="LogInPage2.exe" Source="$(var.LogInPage2_TargetDir)LogInPage2.exe" />
+			</Component>
+			<Component Id="LogInPage2.exe.config" Guid="9d663b54-d709-4987-8d7d-afe9694dec6a">
+			  <File Id="LogInPage2.exe.config" Name="LogInPage2.exe.config" Source="$(var.LogInPage2_TargetDir)LogInPage2.exe.config" />
+			</Component>
+			<Component Id="System.Data.SQLite.dll" Guid="c82e7f04-8018-4053-a6f4-7ff8baa4cb4d">
+			  <File Id="System.Data.SQLite.dll" Name="System.Data.SQLite.dll" Source="$(var.LogInPage2_TargetDir)System.Data.SQLite.dll" />
+			</Component>
+			<Component Id="IT488_CheckMates_Checklist.exe" Guid="e816460e-a6a3-4ba6-ae5e-10bb11af23eb">
+			  <File Id="IT488_CheckMates_Checklist.exe" Name="IT488_CheckMates_Checklist.exe" Source="$(var.LogInPage2_TargetDir)IT488_CheckMates_Checklist.exe" />
+			</Component>
+			<Component Id="IT488_CheckMates_Checklist.exe.config" Guid="04068abe-5728-44ac-a444-81a5689499f9">
+			  <File Id="IT488_CheckMates_Checklist.exe.config" Name="IT488_CheckMates_Checklist.exe.config" Source="$(var.LogInPage2_TargetDir)IT488_CheckMates_Checklist.exe.config" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>

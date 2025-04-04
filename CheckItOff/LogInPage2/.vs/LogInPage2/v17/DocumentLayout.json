@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\canyonreynolds\\source\\Nate work\\LogInPage2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}|LogInPage2\\LogInPage2.csproj|C:\\Users\\canyonreynolds\\source\\Nate work\\LogInPage2\\loginpage2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}|LogInPage2\\LogInPage2.csproj|solutionrelative:loginpage2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}|LogInPage2\\LogInPage2.csproj|c:\\users\\canyonreynolds\\source\\nate work\\loginpage2\\loginpage2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}|LogInPage2\\LogInPage2.csproj|solutionrelative:loginpage2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}|LogInPage2\\LogInPage2.csproj|C:\\Users\\canyonreynolds\\source\\Nate work\\LogInPage2\\loginpage2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D8D1DF-71AE-4AC6-B2B5-CF605768EF1D}|LogInPage2\\LogInPage2.csproj|solutionrelative:loginpage2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\Nate work\\LogInPage2\\LogInPage2\\LogIn.cs",
+              "RelativeDocumentMoniker": "LogInPage2\\LogIn.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\source\\Nate work\\LogInPage2\\LogInPage2\\LogIn.cs",
+              "RelativeToolTip": "LogInPage2\\LogIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T15:58:18.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\Nate work\\LogInPage2\\LogInPage2\\Program.cs",
+              "RelativeDocumentMoniker": "LogInPage2\\Program.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\source\\Nate work\\LogInPage2\\LogInPage2\\Program.cs",
+              "RelativeToolTip": "LogInPage2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T15:58:11.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogIn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\canyonreynolds\\source\\Nate work\\LogInPage2\\LogInPage2\\LogIn.cs",
+              "RelativeDocumentMoniker": "LogInPage2\\LogIn.cs",
+              "ToolTip": "C:\\Users\\canyonreynolds\\source\\Nate work\\LogInPage2\\LogInPage2\\LogIn.cs [Design]",
+              "RelativeToolTip": "LogInPage2\\LogIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T15:58:05.12Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
