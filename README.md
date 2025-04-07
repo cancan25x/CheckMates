@@ -1,29 +1,18 @@
-# CheckMates
-IT488 Software Product Development
+Welcome to CheckItOff by CheckMates!
 
-//These are the basic lines used in executing SQLite queries
+  Thank you for choosing our app to help you stay organized and on top of your tasks. Whether you’re managing personal errands, work projects, or anything in between, CheckItOff is designed  to make your life easier. This guide will walk you through the app’s features step by step, so you can make the most out of your experience. Let’s get started and take the first step toward a more organized you!
+  
+1. Register New Account
+  To begin, new users will need to register an account by clicking on the “Register New Account” button. On the new account page, please enter a unique Username, Password, and a valid email address. Your password must include one of each of the following: a CAPITAL letter, a lowercase letter, a number, and a special character (! @ # $ etc.) Remember to keep your credentials safe, as you’ll need them each time you access the app.
 
-//first we create a variable of what we want to take from users inputs to use in our queries
-//below is taking the text from the text box and creating that into a variable  
-string newList = itemTextBox.Text;
+2. Logging Into The App
+  Once your new account has been registered, or if you already have an account, simply log in with your existing Username and Password to reach the app’s dashboard. If you are using a private device, we invite you to use the Remember Me function, and the app will remember your Username the next time you startup the app.
 
-//connectionString is the datasource string i have been placing in the top of every page so we dont need to copy and paste it a ton and can just reference connectionString
-SQLiteConnection connectionString = new SQLiteConnection(@"Data Source = ..\..\Files\toDoList.db; Version=3;");
+3. Managing Your Lists
+  Once logged in, you can effortlessly manage your lists using the app’s intuitive features. The window at the top of the form shows you your created lists and allows you to organize them by name priority and due date. To create a new list, use the “Add a New List” button. Simply enter the desired name for your list, and it will be created instantly, allowing you to start organizing tasks right away. If you wish to rename an existing list to better reflect its purpose, the “Edit List” button is your go-to tool. This feature enables you to update list names with just a few clicks. For accessing your previously created lists, the “Load List” button helps you bring up any list you’ve already saved, making it easy to pick up where you left off. Lastly, if there are any lists you no longer need, the “Remove from List” button allows you to delete a list, and any saved tasks within that list, quickly and efficiently, freeing up space and keeping your workspace tidy. With these tools at your fingertips, you’ll have complete control over your lists, ensuring your tasks are always organized and up to date.
 
-//this string opens the connection to allow writing to the database
-connectionString.Open();
+4. Working Your Checklists
+  When you click on a created list and press the “Load List” button, a new screen appears and presents you with your checklist. On this screen you will find an “Add a New Task” button, a “Delete Checked Tasks” button, and a display window for the saved tasks. Pressing the “Add a New Task” button pops up a window where you will enter the Task Name, select a Priority level (Low, Medium, High), and enter a Due Date. Once entered you can press the “Add to List” button and your task will appear on the checklist window. If you wish to cancel the entry of a new task, simply press the “Cancel” button. Back on the checklist screen, you can organize your tasks by name, due date, or by priority level by clicking on the column name. Pressing on the column name twice will reverse the order of organization. Finally you can remove individual tasks by clicking on their checkmark box and then clicking on the “Delete Checked Tasks” button. You can remove as many tasks as you wish at one time. Once you have completed working on a checklist, simply close the screen by pressing on the X located in the top-right corner. But don’t worry, your work is automatically saved.
 
-//SQLiteCommand is the function where we write our query out and i have been assigning it to the variable cmd. 
-//first part is always the query then a comma into the connectionString
-//to call a variable in SQL you need to use the $ sign before the quotes then { } around the variable you are calling. It will put that variable in the SQL query
-//as show below with {newList}
-SQLiteCommand cmd = new SQLiteCommand($"CREATE TABLE IF NOT EXISTS {newList} (taskName TEXT NOT NULL PRIMARY KEY, dueDate TEXT NOT NULL, priority TEXT NOT NULL)", connectionString);
-
-//this line is where we fully execute the query to the database
-cmd.ExecuteNonQuery();
-
-//you always have to close the connection after you are done with the database or it will break
-connectionString.Close();
-
-//if you are adding to the task page you need to remember to call the fill_grid() method whenever querying and wanting information to show
-//this method will refresh the grid with new information if you put the fill_grid() method at the end
+5. Exiting the App
+  When you have finished with your work, you can simply close the app by pressing the “LogOut” button, and your app will close, ready to be opened and worked on again the next time you are in need of organizing your increasingly complex and hectic life.
